@@ -3,3 +3,6 @@ Download Talend(Data Integration)
 
 Taking a look at Repository
     tFileInputExcel - tLogRow
+
+Creating Schema Manually
+    tFileInputExcel - tLogRow - tFileOutputExcel
