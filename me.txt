@@ -9,3 +9,9 @@ Creating Schema Manually
 
 Talend Job Design
     tJava, tMsgBox
+
+Repository Tab in more detail
+    context Ctrl + Space
+    Prompt
+    tFileInputExcel - tFilterRow - tLogRow
+    tFileInputExcel - tFilterRow - tFileOutputDelimited
