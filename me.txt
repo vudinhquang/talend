@@ -6,3 +6,6 @@ Taking a look at Repository
 
 Creating Schema Manually
     tFileInputExcel - tLogRow - tFileOutputExcel
+
+Talend Job Design
+    tJava, tMsgBox
