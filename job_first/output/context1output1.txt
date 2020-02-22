@@ -1,0 +1,5 @@
+filterID;0001
+filterAge;47
+inputFile;C:/xampp/htdocs/talend/job_first/CH_1_Metadata_example.xlsx
+filterName;John
+outputDirectory;C:/xampp/htdocs/talend/job_first/output/

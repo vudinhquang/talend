@@ -15,3 +15,8 @@ Repository Tab in more detail
     Prompt
     tFileInputExcel - tFilterRow - tLogRow
     tFileInputExcel - tFilterRow - tFileOutputDelimited
+
+Context and Metadata
+    tContextDump - tFileOutputDelimited
+    tFileInputExcel - tContextLoad
+    tFileInputExcel - tFilterRow - tFileOutputDelimited
