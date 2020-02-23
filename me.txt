@@ -39,3 +39,31 @@ Headers
     tReplace
     tSampleRow
         範囲："1,5,10..20"
+
+Mapping data
+    Excel file -> Excelファイル作成
+    Next　
+    Select File
+    Select Sheet
+    最初の行をカラム名として設定　➖>　プレビュー更新
+    名前
+    length - khong can setting
+
+    Schema Generic
+        名前
+        UserID
+        FullName
+        DateOfBirth
+        Sex
+    tMap
+        +: 出力テーブルの追加
+        setting: 
+            Schema Type: Repository
+            Chon Schema
+        Click Auto Map
+        Drop user_data1.FirstName  user_data1.LastName  sang Schema OutPut(Full name)
+        user_data1.Sex==null?null:user_data1.Sex.equalsIgnoreCase("F") ? "Famale" : "Male"  
+    tFileOutputDelimited
+        詳細設定:
+            CSVオプション
+                エスケープ文字 \"
