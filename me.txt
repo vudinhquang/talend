@@ -27,3 +27,15 @@ More on Context and Metadata
     tSchemaComplianceCheck
     tLogRow
     tConvertType
+
+Headers
+    tFileInputExcel:
+        Header:
+            Number of records to be skipped in the beginning of the file.
+        Footer: 0         	
+            Number of records to be skipped at the end of the file.
+        Limit: 1
+            Maximum number of lines to be processed.
+    tReplace
+    tSampleRow
+        範囲："1,5,10..20"
