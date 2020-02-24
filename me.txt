@@ -67,3 +67,9 @@ Mapping data
         詳細設定:
             CSVオプション
                 エスケープ文字 \"
+
+Outputing tmap Rejects
+    tFileInputExcel
+    tFileOutputDelimited
+    tMap
+    tLogRow
