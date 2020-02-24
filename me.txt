@@ -78,3 +78,7 @@ Filtering Mapped Data
 
 Regex in Talend
     tFileInputDelimited - tExtractRegexField - tLogRow
+
+XML to CSV
+    tFileInputXML - tFileOutputDelimited
+    Limit: Maximum number of rows to be processed. If Limit = 0, no row is read nor processed. If -1, all rows are read or processed.
