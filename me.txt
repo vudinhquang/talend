@@ -73,3 +73,5 @@ Outputing tmap Rejects
     tFileOutputDelimited
     tMap
     tLogRow
+
+Filtering Mapped Data
