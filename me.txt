@@ -82,3 +82,9 @@ Regex in Talend
 XML to CSV
     tFileInputXML - tFileOutputDelimited
     Limit: Maximum number of rows to be processed. If Limit = 0, no row is read nor processed. If -1, all rows are read or processed.
+
+CSV to XML
+    tFileInputExcel - tFileOutputXML
+    Row tag: 
+        Specify the tag that will wrap data and structure per row.
+    詳細設定: "offices"

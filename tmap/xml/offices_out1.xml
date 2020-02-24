@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="ISO-8859-15"?>
+<offices>
+<details>
+<officeCode>1</officeCode>
+<city>San Francisco</city>
+<phone>+1650 219 4782</phone>
+<addressLine1>100 Market Street</addressLine1>
+<addressLine2>Suite 300</addressLine2>
+<state>CA</state>
+<country>USA</country>
+<postalCode>94080</postalCode>
+<territory>NA</territory>
+</details>
+<details>
+<officeCode>2</officeCode>
+<city>Boston</city>
+<phone>+1215 837 4782</phone>
+<addressLine1>1550 Court Place</addressLine1>
+<addressLine2>Suite 102</addressLine2>
+<state>MA</state>
+<country>USA</country>
+<postalCode>0992</postalCode>
+<territory>NA</territory>
+</details>
+<details>
+<officeCode>3</officeCode>
+<city>NYC</city>
+<phone>+1222 837 4745</phone>
+<addressLine1>234 Court Place</addressLine1>
+<addressLine2>Suite 5A</addressLine2>
+<state>NY</state>
+<country>USA</country>
+<postalCode>2292</postalCode>
+<territory>NA</territory>
+</details>
+<details>
+<officeCode>4</officeCode>
+<city>Paris</city>
+<phone>+33 246 4775</phone>
+<addressLine1>43 Rue Place</addressLine1>
+<addressLine2>NULL</addressLine2>
+<state>NULL</state>
+<country>France</country>
+<postalCode>6864</postalCode>
+<territory>EMEA</territory>
+</details>
+<details>
+<officeCode>5</officeCode>
+<city>Tokyo</city>
+<phone>+81 33 2225</phone>
+<addressLine1>4-1 Kioicho</addressLine1>
+<addressLine2>NULL</addressLine2>
+<state>Chiyoda-Ku</state>
+<country>Japan</country>
+<postalCode>6864</postalCode>
+<territory>Japan</territory>
+</details>
+</offices>
