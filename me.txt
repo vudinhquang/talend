@@ -70,8 +70,11 @@ Mapping data
 
 Outputing tmap Rejects
     tFileInputExcel
-    tFileOutputDelimited
+    tFileInputDelimited
     tMap
     tLogRow
 
 Filtering Mapped Data
+
+Regex in Talend
+    tFileInputDelimited - tExtractRegexField - tLogRow
