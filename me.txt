@@ -112,3 +112,6 @@ Advanced XML
             .
         Loop Limit  
             -1
+
+Splitting Data
+    tFileInputExcel - tExtractDelimitedFields - tReplace - tLogRow
