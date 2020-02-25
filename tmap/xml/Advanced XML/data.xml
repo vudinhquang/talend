@@ -1,0 +1,51 @@
+<menu>
+	<lunch_menu>
+		<order>
+			<order_num>13</order_num>
+			<order_date>10-02-2014</order_date>
+            <quatity>1</quatity>
+            <food>
+                <name>Quick Easy Shrimp</name>
+                <price>$12.95</price>
+                <description>Two of our famous Belgian Waffles with plenty of real maple</description>
+                <calories>650</calories>
+            </food>
+		</order>
+	</lunch_menu>
+	<breakfast_menu>
+		<order>
+			<order_num>14</order_num>
+			<order_date>10-02-2014 09:15:39</order_date>
+            <quatity>3</quatity>
+            <food>
+                <name>Belgian Waffes</name>
+                <price>$5.95</price>
+                <description>Two of our famous Belgian Waffles with plenty of real maple</description>
+                <calories>650</calories>
+            </food>
+		</order>
+		<order>
+			<order_num>15</order_num>
+			<order_date>10-02-2014 09:40:11</order_date>
+            <quatity>1</quatity>
+            <food>
+                <name>Strawberry Belgian Waffles</name>
+                <price>$7.95</price>
+                <description>Light Belgian waffles covered with strawberries and whipped cream</description>
+                <calories>900</calories>
+            </food>
+		</order>
+		<order>
+			<order_num>16</order_num>
+			<order_date>10-03-2014 10:41:11</order_date>
+            <quatity>2</quatity>
+            <food>
+                <name>Berry-Berry Belgian Waffles</name>
+                <price>$8.95</price>
+                <description>Light Belgian waffles covered with strawberries and whipped cream</description>
+                <calories>900</calories>
+            </food>
+		</order>
+	</breakfast_menu>
+</menu>
+

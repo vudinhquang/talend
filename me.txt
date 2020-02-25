@@ -88,3 +88,27 @@ CSV to XML
     Row tag: 
         Specify the tag that will wrap data and structure per row.
     詳細設定: "offices"
+
+Advanced XML
+    tFileInputXML
+        絶対XPath表現
+        Limit -1
+        抽出するフィールド
+    tXMLMap
+        絶対XPath表現: /menu
+        Limit -1
+        抽出するフィールド
+            .
+        ノード取得
+            チェック
+        column: menutype: document
+        import from file
+    Schema:
+        ソーススキーマ
+            menu
+        Xpathループ式
+            /menu
+        抽出するフィルド
+            .
+        Loop Limit  
+            -1
