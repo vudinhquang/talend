@@ -115,3 +115,10 @@ Advanced XML
 
 Splitting Data
     tFileInputExcel - tExtractDelimitedFields - tReplace - tLogRow
+
+Joining Data
+    tFileInputDelimited1, tFileInputDelimited2, tJoin, tFileOutputDelimited
+    tJoin
+        検索で含まれているカラムを出力
+    tFileInputDelimited1, tFileInputDelimited2 -> スキーマ：リポジトリ
+    tJoin: 汎用スキーマ
