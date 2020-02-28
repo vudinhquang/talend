@@ -122,3 +122,16 @@ Joining Data
         検索で含まれているカラムを出力
     tFileInputDelimited1, tFileInputDelimited2 -> スキーマ：リポジトリ
     tJoin: 汎用スキーマ
+
+Advanced Data Lookups
+    tFixedFlowInput -> Input_Data
+    tFileInputExcel -> Exchange_Rates
+    tHashInput
+    tHashOutput: Đưa component này ra ngoài Palette để sử dụng
+        Keyword: Where are the tHashInput and tHashOutput components?
+        From the Studio File menu, select Edit Project properties.
+        Expand Designer, then click Palette Settings.
+        Expand Technical then select both of the components in question.
+        Click the arrow icon rtaImage11.png, then click OK.
+    選択したアイテムのコピー
+    貼り付け
