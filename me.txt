@@ -135,3 +135,6 @@ Advanced Data Lookups
         Click the arrow icon rtaImage11.png, then click OK.
     選択したアイテムのコピー
     貼り付け
+
+Uniting Data
+    tUnite
