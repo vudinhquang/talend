@@ -147,3 +147,6 @@ Counting Rows
     Global Variables
         COUNT: the number of rows in a file. This is a Flow variable and it returns an integer.
     System.out.println(globalMap.get("tFileRowCount_1_COUNT"));
+
+tFileCopy Component
+    tFileList - tFilecopy
