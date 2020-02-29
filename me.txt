@@ -158,3 +158,8 @@ tFileDelete Component
 Basics tJava Component
 
 More Features of tJava Component
+
+tJavaRow Component
+    tFixedFlowInput - tJavaRow - tLogRow
+    if (input_row.Name.startsWith("J"))
+    output.Name = StringHandling.EREPLACE(input_row.Name, "J", "John");
