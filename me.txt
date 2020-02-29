@@ -154,3 +154,5 @@ tFileCopy Component
 tFileDelete Component
     tFileList
         filemark: "*.txt"
+
+Basics tJava Component
