@@ -150,3 +150,7 @@ Counting Rows
 
 tFileCopy Component
     tFileList - tFilecopy
+
+tFileDelete Component
+    tFileList
+        filemark: "*.txt"

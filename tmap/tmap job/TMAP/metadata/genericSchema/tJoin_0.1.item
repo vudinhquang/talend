@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010">
+  <TalendMetadata:GenericSchemaConnection xmi:id="_ctZ48VizEeqBbKrmcL8jnA" name="repository.metadataGenericSchema" dataPackage="_ctZ48lizEeqBbKrmcL8jnA"/>
+  <TalendMetadata:GenericPackage xmi:id="_ctZ48lizEeqBbKrmcL8jnA" name="repository.metadataGenericSchema" dataManager="_ctZ48VizEeqBbKrmcL8jnA">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_ctZ481izEeqBbKrmcL8jnA" id="_PtNZEFizEeqBbKrmcL8jnA" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ctZ49FizEeqBbKrmcL8jnA" name="ID" label="ID" talendType="id_Integer" key="true"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ctZ49VizEeqBbKrmcL8jnA" name="Price_ID" label="Price_ID" talendType="id_Integer" key="true"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ctZ49lizEeqBbKrmcL8jnA" name="Artist" label="Artist" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ctZ491izEeqBbKrmcL8jnA" name="Album" label="Album" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ctZ4-FizEeqBbKrmcL8jnA" name="Price" label="Price" talendType="id_Float"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ctZ4-VizEeqBbKrmcL8jnA" name="Curency" label="Curency" talendType="id_String"/>
+    </ownedElement>
+  </TalendMetadata:GenericPackage>
+</xmi:XMI>

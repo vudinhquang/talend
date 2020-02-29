@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:XmlFileConnection xmi:id="_xNQg4FcJEeqBbKrmcL8jnA" name="cd_catalog" dataPackage="_xNRH91cJEeqBbKrmcL8jnA" XmlFilePath="C:/xampp/htdocs/talend/tmap/xml/cd_catalog.xml" Encoding="UTF-8" fileContent="3C3F786D6C2076657273696F6E3D22312E302220656E636F64696E673D225554462D38223F3E0D0A3C434154414C4F473E0D0A202020203C43443E0D0A20202020202020203C5449544C453E5768656E2061206D616E206C6F766573206120776F6D616E3C2F5449544C453E0D0A20202020202020203C4152544953543E506572637920536C656467653C2F4152544953543E0D0A20202020202020203C434F554E5452593E5553413C2F434F554E5452593E0D0A20202020202020203C434F4D50414E593E41746C616E7469633C2F434F4D50414E593E0D0A20202020202020203C50524943453E382E373C2F50524943453E0D0A20202020202020203C594541523E313938373C2F594541523E0D0A202020203C2F43443E0D0A202020203C43443E0D0A20202020202020203C5449544C453E426C61636B20616E67656C3C2F5449544C453E0D0A20202020202020203C4152544953543E53617661676520526F73653C2F4152544953543E0D0A20202020202020203C434F554E5452593E45553C2F434F554E5452593E0D0A20202020202020203C434F4D50414E593E4D6567613C2F434F4D50414E593E0D0A20202020202020203C50524943453E31302E393C2F50524943453E0D0A20202020202020203C594541523E313939353C2F594541523E0D0A202020203C2F43443E0D0A202020203C43443E0D0A20202020202020203C5449544C453E31393939204772616D6D79204E6F6D696E6565733C2F5449544C453E0D0A20202020202020203C4152544953543E4D616E793C2F4152544953543E0D0A20202020202020203C434F554E5452593E5553413C2F434F554E5452593E0D0A20202020202020203C434F4D50414E593E4772616D6D793C2F434F4D50414E593E0D0A20202020202020203C50524943453E31302E323C2F50524943453E0D0A20202020202020203C594541523E313939393C2F594541523E0D0A202020203C2F43443E0D0A3C2F434154414C4F473E">
+    <schema xmi:id="_xNRH8FcJEeqBbKrmcL8jnA" LimitBoucle="-1" AbsoluteXPathQuery="/CATALOG">
+      <schemaTargets xmi:id="_xNRH8VcJEeqBbKrmcL8jnA" RelativeXPathQuery="CD/TITLE" TagName="TITLE"/>
+      <schemaTargets xmi:id="_xNRH8lcJEeqBbKrmcL8jnA" RelativeXPathQuery="CD/ARTIST" TagName="ARTIST"/>
+      <schemaTargets xmi:id="_xNRH81cJEeqBbKrmcL8jnA" RelativeXPathQuery="CD/COUNTRY" TagName="COUNTRY"/>
+      <schemaTargets xmi:id="_xNRH9FcJEeqBbKrmcL8jnA" RelativeXPathQuery="CD/COMPANY" TagName="COMPANY"/>
+      <schemaTargets xmi:id="_xNRH9VcJEeqBbKrmcL8jnA" RelativeXPathQuery="CD/PRICE" TagName="PRICE"/>
+      <schemaTargets xmi:id="_xNRH9lcJEeqBbKrmcL8jnA" RelativeXPathQuery="CD/YEAR" TagName="YEAR"/>
+    </schema>
+  </TalendMetadata:XmlFileConnection>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_xNRH91cJEeqBbKrmcL8jnA" name="default" dataManager="_xNQg4FcJEeqBbKrmcL8jnA">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_xNRH-FcJEeqBbKrmcL8jnA" id="_5PJwMFcIEeqBbKrmcL8jnA" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_xNRH-VcJEeqBbKrmcL8jnA" label="TITLE" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_xNRH-lcJEeqBbKrmcL8jnA" label="ARTIST" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_xNRH-1cJEeqBbKrmcL8jnA" label="COUNTRY" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_xNRH_FcJEeqBbKrmcL8jnA" label="COMPANY" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_xNRH_VcJEeqBbKrmcL8jnA" label="PRICE" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_xNRH_lcJEeqBbKrmcL8jnA" label="YEAR" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

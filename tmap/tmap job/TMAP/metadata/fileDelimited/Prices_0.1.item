@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_lmAVcVlwEeq7yuhkqmYvkg" name="Prices" dataPackage="_lmAVcllwEeq7yuhkqmYvkg" Server="Localhost 127.0.0.1" FilePath="C:/xampp/htdocs/talend/tmap/tJoin/Prices.csv" Encoding="UTF-8" FieldSeparatorValue="&quot;,&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true" FieldSeparatorType="Comma"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_lmAVcllwEeq7yuhkqmYvkg" name="default" dataManager="_lmAVcVlwEeq7yuhkqmYvkg">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_lmAVc1lwEeq7yuhkqmYvkg" id="_OyI8EFlwEeq7yuhkqmYvkg" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_lmAVdFlwEeq7yuhkqmYvkg" label="ID" talendType="id_Integer" key="true" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_lmAVdVlwEeq7yuhkqmYvkg" label="Price" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_lmAVdllwEeq7yuhkqmYvkg" label="Curency" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

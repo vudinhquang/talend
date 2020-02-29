@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010">
+  <TalendMetadata:GenericSchemaConnection xmi:id="_lJRewVZSEeqBbKrmcL8jnA" name="repository.metadataGenericSchema" dataPackage="_lJRewlZSEeqBbKrmcL8jnA"/>
+  <TalendMetadata:GenericPackage xmi:id="_lJRewlZSEeqBbKrmcL8jnA" name="repository.metadataGenericSchema" dataManager="_lJRewVZSEeqBbKrmcL8jnA">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_lJRew1ZSEeqBbKrmcL8jnA" id="_UdalcFZSEeqBbKrmcL8jnA" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_lJRexFZSEeqBbKrmcL8jnA" name="UserID" label="UserID" length="-1" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_lJRexVZSEeqBbKrmcL8jnA" name="FullName" label="FullName" length="-1" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_lJRexlZSEeqBbKrmcL8jnA" name="DateOfBirth" label="DateOfBirth" length="-1" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_lJRex1ZSEeqBbKrmcL8jnA" name="Sex" label="Sex" length="-1" talendType="id_String"/>
+    </ownedElement>
+  </TalendMetadata:GenericPackage>
+</xmi:XMI>

@@ -1,0 +1,38 @@
+[INFO] Disabling enhanced local repository: using legacy is strongly discouraged to ensure build reproducibility.
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ---------------< org.example.tmap.job:tfile_properties >----------------
+[INFO] Building TMAP tfile_properties-0.1.0 (0.1,ジョブ) 0.1.0
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:3.0.2:resources (default-resources) @ tfile_properties ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.6.1:compile (default-compile) @ tfile_properties ---
+[WARNING] The POM for org.eclipse.platform:org.eclipse.osgi:jar:3.13.300 is missing, no dependency information available
+[WARNING] The POM for org.apache.commons:commons-exec:jar:1.2 is missing, no dependency information available
+[INFO] Not compiling main sources
+[INFO] 
+[INFO] --- maven-resources-plugin:3.0.2:testResources (default-testResources) @ tfile_properties ---
+[INFO] Not copying test resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.6.1:testCompile (default-testCompile) @ tfile_properties ---
+[INFO] Not compiling test sources
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.20:test (default-test) @ tfile_properties ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- maven-jar-plugin:3.0.2:jar (default-jar) @ tfile_properties ---
+[INFO] Building jar: C:\talend\workspace\TMAP\poms\jobs\process\tfile_properties_0.1\target\tfile_properties_0_1.jar
+[INFO] 
+[INFO] --- maven-assembly-plugin:3.0.0:single (default) @ tfile_properties ---
+[INFO] Reading assembly descriptor: C:\talend\workspace\TMAP\poms\jobs\process\tfile_properties_0.1/src/main/assemblies/assembly.xml
+[WARNING] The POM for org.apache.felix:maven-bundle-plugin:jar:2.1.0 is missing, no dependency information available
+[INFO] Building zip: C:\talend\workspace\TMAP\poms\jobs\process\tfile_properties_0.1\target\tfile_properties_0_1.zip
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 6.543 s
+[INFO] Finished at: 2020-02-29T18:57:33+09:00
+[INFO] ------------------------------------------------------------------------
