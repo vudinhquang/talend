@@ -156,3 +156,5 @@ tFileDelete Component
         filemark: "*.txt"
 
 Basics tJava Component
+
+More Features of tJava Component
