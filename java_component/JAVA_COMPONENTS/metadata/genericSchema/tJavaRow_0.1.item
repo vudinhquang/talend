@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010">
+  <TalendMetadata:GenericSchemaConnection xmi:id="_Z9THcFrlEeq6Qb0791aqmA" name="repository.metadataGenericSchema" dataPackage="_Z9THcVrlEeq6Qb0791aqmA"/>
+  <TalendMetadata:GenericPackage xmi:id="_Z9THcVrlEeq6Qb0791aqmA" name="repository.metadataGenericSchema" dataManager="_Z9THcFrlEeq6Qb0791aqmA">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_Z9THclrlEeq6Qb0791aqmA" id="_TdAqQFrlEeq6Qb0791aqmA" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Z9THc1rlEeq6Qb0791aqmA" name="ID" label="ID" talendType="id_Integer" key="true"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Z9TugFrlEeq6Qb0791aqmA" name="Text" label="Text" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Z9TugVrlEeq6Qb0791aqmA" name="Name" label="Name" talendType="id_String"/>
+    </ownedElement>
+  </TalendMetadata:GenericPackage>
+</xmi:XMI>

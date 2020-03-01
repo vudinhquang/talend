@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010">
+  <TalendMetadata:GenericSchemaConnection xmi:id="_ST52sVrxEeq6Qb0791aqmA" name="repository.metadataGenericSchema" dataPackage="_ST52slrxEeq6Qb0791aqmA"/>
+  <TalendMetadata:GenericPackage xmi:id="_ST52slrxEeq6Qb0791aqmA" name="repository.metadataGenericSchema" dataManager="_ST52sVrxEeq6Qb0791aqmA">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_ST52s1rxEeq6Qb0791aqmA" id="_PS_DYFrxEeq6Qb0791aqmA" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ST52tFrxEeq6Qb0791aqmA" name="FName" label="FName" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ST52tVrxEeq6Qb0791aqmA" name="LName" label="LName" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ST52tlrxEeq6Qb0791aqmA" name="FullName" label="FullName" talendType="id_String"/>
+    </ownedElement>
+  </TalendMetadata:GenericPackage>
+</xmi:XMI>

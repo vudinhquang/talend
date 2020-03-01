@@ -163,3 +163,7 @@ tJavaRow Component
     tFixedFlowInput - tJavaRow - tLogRow
     if (input_row.Name.startsWith("J"))
     output.Name = StringHandling.EREPLACE(input_row.Name, "J", "John");
+
+tJavaFlex Component
+    tFileInputExcel - tJavaFlex - tFilterColumns
+    tJavaFlex
