@@ -171,3 +171,9 @@ tJavaFlex Component
 Working with Hyper SQL (HSQL)
     tFixedFlowInput - Test_HSQL
     tHSQLDbInput - tLogRow
+
+Looking at Table Schema's
+    DB接続定義
+    tDBConnection(Mysql) - tDBInput - tLogRow
+    tDBConnection: Opens a connection to a database to be reused in the subsequent subjob or subjobs.
+    tDBInput: Extracts data from a database.
