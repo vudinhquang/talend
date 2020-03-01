@@ -177,3 +177,13 @@ Looking at Table Schema's
     tDBConnection(Mysql) - tDBInput - tLogRow
     tDBConnection: Opens a connection to a database to be reused in the subsequent subjob or subjobs.
     tDBInput: Extracts data from a database.
+
+Reading Data from a Database
+    tDBConnection(Mysql) - tDBInput - tLogRow
+    tDBInput:
+        "SELECT
+            count(customerNumber) AS CustomerNumber,
+            state
+        FROM classicmodels.customers
+        WHERE state IS NOT NULL
+        GROUP BY state;"
