@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore" xmlns:relational="http://www.talend.org/cwm/resource/relational/2010">
+  <TalendMetadata:DatabaseConnection xmi:id="_xqPe0FueEeqKhNNOJTxQww" name="Test_HSQL" id="_MoEMoFueEeqKhNNOJTxQww" label="Test_HSQL" dataPackage="_xzWXgFueEeqKhNNOJTxQww" DatabaseType="HSQLDB In-Process" DriverClass="org.hsqldb.jdbcDriver" URL="jdbc:hsqldb:file:C:/xampp/htdocs/talend/data/DB/Test_HSQL;" Port="" Username="sa" Password="1+mcsKl1zYI=" ServerName="" DatasourceName="" FileFieldName="" SID="Test_HSQL" SqlSynthax="" StringQuote="" NullChar="" DbmsId="hsqldb_id" ProductId="HSQLDB" DBRootPath="C:/xampp/htdocs/talend/data/DB" AdditionalParams="" StandardSQL="true" SQLMode="false" UiSchema="">
+    <taggedValue xmi:id="_xqSiIFueEeqKhNNOJTxQww" tag="Is Conn Need Reload" value="false"/>
+    <taggedValue xmi:id="_xqpugFueEeqKhNNOJTxQww" tag="package filter" value=""/>
+    <taggedValue xmi:id="_xqxDQFueEeqKhNNOJTxQww" tag="Status" value=""/>
+    <taggedValue xmi:id="_xqxDQVueEeqKhNNOJTxQww" tag="Version" value="0.1"/>
+    <taggedValue xmi:id="_xqxDQlueEeqKhNNOJTxQww" tag="Purpose" value=""/>
+    <taggedValue xmi:id="_xqxDQ1ueEeqKhNNOJTxQww" tag="Description" value=""/>
+    <taggedValue xmi:id="_xqxDRFueEeqKhNNOJTxQww" tag="Author" value=""/>
+    <taggedValue xmi:id="_xqxDRVueEeqKhNNOJTxQww" tag="otherParameter"/>
+    <taggedValue xmi:id="_xuP1EFueEeqKhNNOJTxQww" tag="DB ProductName" value="HSQL Database Engine"/>
+    <taggedValue xmi:id="_xuP1EVueEeqKhNNOJTxQww" tag="DB ProductVersion" value="2.3.0"/>
+    <taggedValue xmi:id="_xuP1ElueEeqKhNNOJTxQww" tag="DB IdentifierQuoteString" value="&quot;"/>
+    <parameters xmi:id="_xqSiIVueEeqKhNNOJTxQww" key="CONN_PARA_KEY_USERNAME" value="sa"/>
+  </TalendMetadata:DatabaseConnection>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_xzWXgFueEeqKhNNOJTxQww" name="PUBLIC" dataManager="_xqPe0FueEeqKhNNOJTxQww">
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_xzWXgVueEeqKhNNOJTxQww" name="INFORMATION_SCHEMA"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_xzWXglueEeqKhNNOJTxQww" name="SYSTEM_LOBS"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_xzWXg1ueEeqKhNNOJTxQww" name="PUBLIC">
+      <ownedElement xsi:type="relational:TdTable" xmi:id="__7kkgVugEeqKhNNOJTxQww" name="TEST_TABLE" id="__7kkgFugEeqKhNNOJTxQww" label="TEST_TABLE" tableType="TABLE">
+        <feature xsi:type="relational:TdColumn" xmi:id="__7kkglugEeqKhNNOJTxQww" name="TEST" label="TEST" length="100" sourceType="VARCHAR" talendType="id_String">
+          <taggedValue xmi:id="__7kkg1ugEeqKhNNOJTxQww" tag="Comment" value=""/>
+          <initialValue xsi:type="relational:TdExpression" xmi:id="__7kkhFugEeqKhNNOJTxQww" language="COLUMN_DEF"/>
+          <sqlDataType xmi:id="__7kkhVugEeqKhNNOJTxQww" name="VARCHAR" javaDataType="12" nullable="columnNullable"/>
+        </feature>
+      </ownedElement>
+    </ownedElement>
+  </orgomg.cwm.resource.relational:Catalog>
+</xmi:XMI>

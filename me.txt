@@ -195,3 +195,7 @@ Writing Data to a Database
         There were : 0 rejects.
 
 Debugging in Talend
+
+Reject Handling
+    tConvertType
+        自動キャスト
