@@ -193,3 +193,5 @@ Writing Data to a Database
     System.out.println("The job has inserted: " + ((Integer)globalMap.get("tDBOutput_1_NB_LINE_INSERTED")) + " rows of data.\nThere were : " + ((Integer)globalMap.get("tDBOutput_1_NB_LINE_REJECTED")) + " rejects.");
         The job has inserted: 5 rows of data.
         There were : 0 rejects.
+
+Debugging in Talend
